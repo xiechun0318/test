@@ -13,7 +13,7 @@ Mat1b computeShadowMask(const Mat1b& blackImage, const Mat1b& whiteImage, size_t
 		for (int i = 0; i < shadowMask.cols; ++i) {
 			if (whiteImage(j, i) > blackImage(j, i) + threshold) {
 				shadowMask(j, i) = 255;
-				//git test 
+				//git test tttt
 			}
 		}
 	}
